@@ -17,6 +17,9 @@ webpack --progress --watch
 Check that the `js/index.js` has correctly been generated.
 
 ## Test it
-Open index.html in your browser and check unzip
+Open index.html in your browser and check unzip.
+
 If you run it without web server, you have to enable loading from a file url, for chrome:
+```
 chrome.exe --allow-file-access-from-files
+```
